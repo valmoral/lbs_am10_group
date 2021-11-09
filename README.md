@@ -1,6 +1,4 @@
-# lbs_am10_group
-
-## Final Project Proposal
+# AM10: Final Group Project
 
 ### Datasets
 
