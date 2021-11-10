@@ -1,12 +1,14 @@
 # AM10: Final Group Project
 
+![Random GIF](https://i.giphy.com/media/jVHc85A90eP5lXQ3q5/giphy.gif)
+
 ### Datasets
 
 * [Fast Food Calories](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018/2018-09-04/fastfood_calories.csv)
 
 * [Fast Food Restaurants](https://www.kaggle.com/datafiniti/fast-food-restaurants?select=FastFoodRestaurants.csv)
 
-### Questions to Explore
+### Questions
 
 1.  Does having more restaurants/calories in the area result in a higher obesity rate?
 2.  Which restaurant has the most caloric menu?
