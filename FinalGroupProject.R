@@ -1,3 +1,4 @@
+library(ggwordcloud)
 library(tidyverse)
 library(urbnmapr)
 library(janitor)
@@ -7,10 +8,11 @@ library(sf)
 
 calories <- read_csv('data/fastfood_calories.csv') %>%
   clean_names() %>%
+  rename(total_prot=protein) %>%
   mutate(restaurant=str_replace_all(tolower(restaurant), '[^\\w]', '')) %>%
   filter(
     !is.na(fiber),
-    !is.na(protein),
+    !is.na(total_prot),
     restaurant %in% c('mcdonalds', 'burgerking', 'tacobell', 'subway')) %>%
   select(-x1, -vit_a, -vit_c, -calcium, -salad)
 
@@ -57,3 +59,35 @@ get_urbn_map('states', sf=T) %>%
   inner_join(restaurant_with_calories, by=c('state_abbv'='state')) %>%
   ggplot(aes(fill=total_calories)) +
   geom_sf(colour='#ffffff')
+
+# Q6
+balance_scores <- calories %>%
+  mutate(
+    score_carb=4*total_carb/calories-0.5,
+    score_fat=9*total_fat/calories-0.3,
+    score_prot=4*total_prot/calories-0.2,
+    balance_score=score_prot-(score_carb+score_fat),
+    balance_score=round(balance_score*100, 1)) %>%
+  select(restaurant, item, balance_score)
+
+balance_scores %>%
+  ggplot(aes(x=restaurant, y=balance_score)) +
+  geom_boxplot()
+
+balance_scores %>%
+  slice_max(order_by=balance_score, n=5)
+
+balance_scores %>%
+  slice_min(order_by=balance_score, n=5)
+
+# Q7
+words <- calories %>%
+  select(item) %>%
+  mutate(item=str_replace_all(tolower(item), '[^\\s\\w]', '')) %>%
+  pull()
+
+as.data.frame(table(unlist(strsplit(words, ' ')))) %>%
+  rename(item=Var1, n=Freq) %>%
+  filter(str_length(item)>1, n>1) %>%
+  ggplot(aes(label=item, size=n)) +
+  geom_text_wordcloud()
