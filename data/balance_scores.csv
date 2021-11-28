@@ -1,0 +1,329 @@
+restaurant,item,item_clean,calories,balance_score
+McDonald's,Artisan Grilled Chicken Sandwich,artisan grilled chicken sandwich,380,36.1
+McDonald's,Single Bacon Smokehouse Burger,single bacon smokehouse burger,840,4.2
+McDonald's,Double Bacon Smokehouse Burger,double bacon smokehouse burger,1130,9.1
+McDonald's,Grilled Bacon Smokehouse Chicken Sandwich,grilled bacon smokehouse chicken sandwich,750,19.1
+McDonald's,Crispy Bacon Smokehouse Chicken Sandwich,crispy bacon smokehouse chicken sandwich,920,0.8
+McDonald's,Big Mac,big mac,540,-2.2
+McDonald's,Cheeseburger,cheeseburger,300,0
+McDonald's,Classic Chicken Sandwich,classic chicken sandwich,510,-1.2
+McDonald's,Double Cheeseburger,double cheeseburger,430,6.7
+McDonald's,Double Quarter Pounder® with Cheese,double quarter pounder with cheese,770,12.1
+McDonald's,Filet-O-Fish®,filetofish,380,-6.8
+McDonald's,Garlic White Cheddar Burger,garlic white cheddar burger,620,0.3
+McDonald's,Grilled Garlic White Cheddar Chicken Sandwich,grilled garlic white cheddar chicken sandwich,530,21.5
+McDonald's,Crispy Garlic White Cheddar Chicken Sandwich,crispy garlic white cheddar chicken sandwich,700,-3.1
+McDonald's,Hamburger,hamburger,250,2.4
+McDonald's,Lobster Roll,lobster roll,290,29.3
+McDonald's,Maple Bacon Dijon 1/4 lb Burger,maple bacon dijon 14 lb burger,640,7.5
+McDonald's,Grilled Maple Bacon Dijon Chicken Sandwich,grilled maple bacon dijon chicken sandwich,580,26
+McDonald's,Crispy Maple Bacon Dijon Chicken Sandwich,crispy maple bacon dijon chicken sandwich,740,1.2
+McDonald's,McChicken,mcchicken,350,-7.1
+McDonald's,McDouble,mcdouble,380,5.8
+McDonald's,McRib,mcrib,480,2.1
+McDonald's,Pico Guacamole 1/4 lb Burger,pico guacamole 14 lb burger,580,0.5
+McDonald's,Grilled Pico Guacamole Chicken Sandwich,grilled pico guacamole chicken sandwich,520,21.2
+McDonald's,Crispy Pico Guacamole Chicken Sandwich,crispy pico guacamole chicken sandwich,680,-4.7
+McDonald's,Premium Buttermilk Crispy Chicken Deluxe Sandwich,premium buttermilk crispy chicken deluxe sandwich,570,-1.6
+McDonald's,Premium Crispy Chicken Deluxe Sandwich,premium crispy chicken deluxe sandwich,530,-3
+McDonald's,Quarter Pounder® with Cheese,quarter pounder with cheese,530,6.6
+McDonald's,Signature Sriracha Burger,signature sriracha burger,670,-1.3
+McDonald's,Grilled Signature Sriracha Chicken Sandwich,grilled signature sriracha chicken sandwich,560,17.1
+McDonald's,Crispy Signature Sriracha Chicken Sandwich,crispy signature sriracha chicken sandwich,730,-4.2
+McDonald's,Sweet BBQ Bacon 1/4 lb Burger,sweet bbq bacon 14 lb burger,690,4.2
+McDonald's,Grilled Sweet BBQ Bacon Chicken Sandwich,grilled sweet bbq bacon chicken sandwich,630,20.3
+McDonald's,Crispy Sweet BBQ Bacon Chicken Sandwich,crispy sweet bbq bacon chicken sandwich,800,-1
+McDonald's,3 piece Buttermilk Crispy Chicken Tenders,3 piece buttermilk crispy chicken tenders,370,21.9
+McDonald's,4 piece Buttermilk Crispy Chicken Tenders,4 piece buttermilk crispy chicken tenders,480,21.7
+McDonald's,6 piece Buttermilk Crispy Chicken Tenders,6 piece buttermilk crispy chicken tenders,760,21.6
+McDonald's,10 piece Buttermilk Crispy Chicken Tenders,10 piece buttermilk crispy chicken tenders,1210,21.8
+McDonald's,12 piece Buttermilk Crispy Chicken Tenders,12 piece buttermilk crispy chicken tenders,1510,21.1
+McDonald's,20 piece Buttermilk Crispy Chicken Tenders,20 piece buttermilk crispy chicken tenders,2430,21.4
+McDonald's,4 Piece Chicken McNuggets,4 piece chicken mcnuggets,180,2.8
+McDonald's,6 Piece Chicken McNuggets,6 piece chicken mcnuggets,270,5.2
+McDonald's,10 Piece Chicken McNuggets,10 piece chicken mcnuggets,440,3
+McDonald's,20 Piece Chicken McNuggets,20 piece chicken mcnuggets,890,4.6
+McDonald's,40 piece Chicken McNuggets,40 piece chicken mcnuggets,1770,4
+McDonald's,4 piece Sweet N' Spicy Honey BBQ Glazed Tenders,4 piece sweet n spicy honey bbq glazed tenders,640,7
+McDonald's,6 piece Sweet N' Spicy Honey BBQ Glazed Tenders,6 piece sweet n spicy honey bbq glazed tenders,960,7.5
+McDonald's,10 piece Sweet N' Spicy Honey BBQ Glazed Tenders,10 piece sweet n spicy honey bbq glazed tenders,1600,8.1
+McDonald's,Premium Asian Salad w/o Chicken,premium asian salad wo chicken,140,-2.1
+McDonald's,Premium Asian Salad w/ Grilled Chicken,premium asian salad w grilled chicken,270,49.3
+McDonald's,Premium Asian Salad w/ Crispy Chicken,premium asian salad w crispy chicken,490,12.7
+McDonald's,Premium Bacon Ranch Salad w/o Chicken,premium bacon ranch salad wo chicken,190,13.7
+McDonald's,Premium Bacon Ranch Salad w/ Grilled Chicken,premium bacon ranch salad w grilled chicken,320,61.9
+McDonald's,Premium Bacon Ranch Salad w/ Crispy Chicken,premium bacon ranch salad w crispy chicken,490,12.7
+McDonald's,Premium Southwest Salad w/o Chicken,premium southwest salad wo chicken,220,-13.6
+McDonald's,Premium Southwest Salad w/ Grilled Chicken,premium southwest salad w grilled chicken,350,40.6
+McDonald's,Premium Southwest Salad w/ Crispy Chicken,premium southwest salad w crispy chicken,520,2.9
+Burger King,American Brewhouse King,american brewhouse king,1550,16
+Burger King,Bacon & Swiss Sourdough King,bacon  swiss sourdough king,1000,4.7
+Burger King,Bacon Cheeseburger,bacon cheeseburger,330,-0.6
+Burger King,Bacon Cheeseburger Deluxe,bacon cheeseburger deluxe,290,-5.5
+Burger King,Bacon King,bacon king,1040,21.9
+Burger King,Bacon King Jr,bacon king jr,730,-5.1
+Burger King,Cheeseburger,cheeseburger,300,2
+Burger King,Double Bacon Cheeseburger,double bacon cheeseburger,520,4.8
+Burger King,Double Cheeseburger,double cheeseburger,450,5.3
+Burger King,Double Hamburger,double hamburger,360,8.3
+Burger King,Double Quarter Pound King,double quarter pound king,900,8.7
+Burger King,Extra Long Cheeseburger,extra long cheeseburger,580,-4.3
+Burger King,Hamburger,hamburger,260,2.3
+Burger King,Homestyle Cheeseburger,homestyle cheeseburger,550,2.7
+Burger King,Jalapeno King Sandwich,jalapeno king sandwich,990,4.5
+Burger King,Rodeo Burger,rodeo burger,310,-15.2
+Burger King,Rodeo King,rodeo king,1250,-1.9
+Burger King,Sourdough King Single,sourdough king single,730,-2.3
+Burger King,Sourdough King Double,sourdough king double,970,4.6
+Burger King,Bacon & Cheese Whopper,bacon  cheese whopper,770,-5.5
+Burger King,DOUBLE WHOPPER w/o Cheese,double whopper wo cheese,900,1.2
+Burger King,DOUBLE WHOPPER w/ Cheese,double whopper w cheese,990,0.5
+Burger King,WHOPPER w/o Cheese,whopper wo cheese,660,-7.3
+Burger King,WHOPPER w/ Cheese,whopper w cheese,760,-6.2
+Burger King,WHOPPER JR. w/o Cheese,whopper jr wo cheese,340,-6.8
+Burger King,WHOPPER JR. w/ Cheese,whopper jr w cheese,380,-8.2
+Burger King,Bacon Cheddar Ranch Chicken Salad w/ grilled Chicken & Dressing,bacon cheddar ranch chicken salad w grilled chicken  dressing,590,15.3
+Burger King,Bacon Cheddar Ranch Chicken Salad w/ crispy Chicken & Dressing,bacon cheddar ranch chicken salad w crispy chicken  dressing,720,-0.3
+Burger King,Chicken BLT Salad w/ Grilled Chicken,chicken blt salad w grilled chicken,550,13.3
+Burger King,Chicken BLT Salad w/ Crispy Chicken,chicken blt salad w crispy chicken,690,-0.3
+Burger King,Chicken Caesar Salad w/ Grilled Chicken,chicken caesar salad w grilled chicken,530,12.5
+Burger King,Chicken Caesar Salad w/ Crispy Chicken,chicken caesar salad w crispy chicken,670,-1.3
+Burger King,"Chicken, Apple & Cranberry Salad w/ Grilled Chicken",chicken apple  cranberry salad w grilled chicken,560,3.9
+Burger King,"Chicken, Apple & Cranberry Salad w/ Crispy Chicken",chicken apple  cranberry salad w crispy chicken,700,-7.6
+Burger King,"Garden Grilled Chicken Salad w/ Grilled Chicken, no dressing",garden grilled chicken salad w grilled chicken no dressing,320,45.6
+Burger King,"Garden Grilled Chicken Salad w/ Crispy Chicken, no dressing",garden grilled chicken salad w crispy chicken no dressing,450,11.1
+Burger King,Side Caesar Salad with dressing,side caesar salad with dressing,220,-23.6
+Burger King,Side Garden Salad and Avocado Ranch Dressing,side garden salad and avocado ranch dressing,230,-25.7
+Burger King,Big Fish Sandwich,big fish sandwich,530,-13.8
+Burger King,BK VEGGIE Burger,bk veggie burger,410,3.4
+Burger King,Chicken Burger,chicken burger,480,-3.5
+Burger King,Chicken Fries,chicken fries,290,4.5
+Burger King,4 Piece Chicken Nuggets,4 piece chicken nuggets,190,7.9
+Burger King,6 Piece Chicken Nuggets,6 piece chicken nuggets,290,7.2
+Burger King,20 Piece Chicken Nuggets,20 piece chicken nuggets,950,8.3
+Burger King,Chicken Nuggets (10pc),chicken nuggets 10pc,470,-6.6
+Burger King,Crispy Chicken Jr.,crispy chicken jr,430,-19.1
+Burger King,Crispy Chicken Sandwich,crispy chicken sandwich,670,-13.6
+Burger King,Grilled Chicken Sandwich,grilled chicken sandwich,470,21.9
+Burger King,Grilled Chili Cheese Dog,grilled chili cheese dog,330,-8.8
+Burger King,Grilled Hot Dog,grilled hot dog,310,-13.5
+Burger King,Jalapeno Chicken Fries,jalapeno chicken fries,300,0.7
+Burger King,Original Chicken Sandwich,original chicken sandwich,630,-9.7
+Burger King,Pretzel Chicken Fries,pretzel chicken fries,340,-1.5
+Burger King,Rodeo Crispy Chicken Sandwich,rodeo crispy chicken sandwich,410,-17.3
+Burger King,Sourdough Chicken Club,sourdough chicken club,840,-8.9
+Burger King,4 Piece Spicy Chicken Nuggets,4 piece spicy chicken nuggets,210,-10
+Burger King,Spicy Crispy Chicken Jr.,spicy crispy chicken jr,410,-17.3
+Burger King,Spicy Crispy Chicken Sandwich,spicy crispy chicken sandwich,700,-12.3
+Burger King,Spicy Crispy Jalapeno Chicken Sandwich,spicy crispy jalapeno chicken sandwich,760,-7
+Subway,"6"" B.L.T.",6 blt,320,-0.3
+Subway,Footlong B.L.T.,footlong blt,640,-0.3
+Subway,"6"" BBQ Rib Sandwich",6 bbq rib sandwich,430,-3.7
+Subway,Footlong BBQ Rib Sandwich,footlong bbq rib sandwich,860,-3.7
+Subway,"6"" Big Hot Pastrami",6 big hot pastrami,580,-0.5
+Subway,Footlong Big Hot Pastrami,footlong big hot pastrami,1160,-0.5
+Subway,"6"" Big Philly Cheesesteak",6 big philly cheesesteak,500,19
+Subway,Footlong Big Philly Cheesesteak,footlong big philly cheesesteak,1000,19
+Subway,Kids Mini Sub Black Forest Ham,kids mini sub black forest ham,180,0.6
+Subway,"6"" Black Forest Ham",6 black forest ham,290,5.9
+Subway,Footlong Black Forest Ham,footlong black forest ham,580,5.9
+Subway,"6"" Carved Turkey",6 carved turkey,330,22.1
+Subway,Footlong Carved Turkey,footlong carved turkey,660,22.1
+Subway,"6"" Carved Turkey & Bacon w/ Cheese",6 carved turkey  bacon w cheese,570,9.8
+Subway,Footlong Carved Turkey & Bacon w/ Cheese,footlong carved turkey  bacon w cheese,1140,9.8
+Subway,"6"" Chicken & Bacon Ranch Melt",6 chicken  bacon ranch melt,570,7.4
+Subway,Footlong Chicken & Bacon Ranch Melt,footlong chicken  bacon ranch melt,1140,7.4
+Subway,"6"" Chicken Pizziola Melt",6 chicken pizziola melt,460,13.9
+Subway,Footlong Chicken Pizziola Melt,footlong chicken pizziola melt,920,13.9
+Subway,"6"" Cold Cut Combo",6 cold cut combo,370,-1.9
+Subway,Footlong Cold Cut Combo,footlong cold cut combo,740,-1.9
+Subway,"6"" Corned Beef Reuben",6 corned beef reuben,470,26.2
+Subway,Footlong Corned Beef Reuben,footlong corned beef reuben,940,26.2
+Subway,"6"" Italian B.M.T.",6 italian bmt,410,-0.5
+Subway,Footlong Italian B.M.T.,footlong italian bmt,820,-0.5
+Subway,"6"" Italian Hero",6 italian hero,550,-2.7
+Subway,Footlong Italian Hero,footlong italian hero,1100,-2.7
+Subway,"6"" Meatball Marinara",6 meatball marinara,480,-5.4
+Subway,Footlong Meatball Marinara,footlong meatball marinara,960,-5.4
+Subway,"6"" Oven Roasted Chicken",6 oven roasted chicken,320,15.9
+Subway,Footlong Oven Roasted Chicken,footlong oven roasted chicken,640,47.2
+Subway,Kids Mini Sub Roast Beef,kids mini sub roast beef,200,14.5
+Subway,"6"" Roast Beef",6 roast beef,320,19.7
+Subway,Footlong Roast Beef,footlong roast beef,640,19.7
+Subway,"6"" Rotisserie Style Chicken",6 rotisserie style chicken,350,27.4
+Subway,Footlong Rotisserie Style Chicken,footlong rotisserie style chicken,700,27.4
+Subway,"6"" Spicy Italian",6 spicy italian,480,-6.7
+Subway,Footlong Spicy Italian,footlong spicy italian,960,-6.7
+Subway,"6"" Steak and Cheese",6 steak and cheese,380,13.2
+Subway,Footlong Steak and Cheese,footlong steak and cheese,760,13.2
+Subway,"6"" Subway Club",6 subway club,310,15.8
+Subway,Footlong Subway Club,footlong subway club,620,15.8
+Subway,"6"" Subway Melt (includes cheese)",6 subway melt includes cheese,370,7.3
+Subway,Footlong Subway Melt (includes cheese),footlong subway melt includes cheese,740,7.3
+Subway,"6"" Subway Seafood Sensation",6 subway seafood sensation,420,-16.9
+Subway,Footlong Subway Seafood Sensation,footlong subway seafood sensation,840,-16.9
+Subway,"6"" Sweet Onion Chicken Teriyaki",6 sweet onion chicken teriyaki,380,13.4
+Subway,Footlong Sweet Onion Chicken Teriyaki,footlong sweet onion chicken teriyaki,760,13.4
+Subway,"6"" Tuna",6 tuna,470,-6.4
+Subway,Footlong Tuna,footlong tuna,940,-6.4
+Subway,"6"" Turkey & Bacon Avocado",6 turkey  bacon avocado,390,2.3
+Subway,Footlong Turkey & Bacon Avocado,footlong turkey  bacon avocado,780,2.3
+Subway,Kids Mini Sub Turkey Breast,kids mini sub turkey breast,180,5.6
+Subway,"6"" Turkey Breast",6 turkey breast,280,7.1
+Subway,Footlong Turkey Breast,footlong turkey breast,560,7.1
+Subway,"6"" Turkey Breast & Ham",6 turkey breast  ham,280,7.1
+Subway,Footlong Turkey Breast & Ham,footlong turkey breast  ham,560,7.1
+Subway,"6"" Turkey Italiano Melt (with Provolone)",6 turkey italiano melt with provolone,490,-2.9
+Subway,Footlong Turkey Italiano Melt (with Provolone),footlong turkey italiano melt with provolone,980,-2.9
+Subway,Kids Mini Sub Veggie Delite,kids mini sub veggie delite,150,-13.3
+Subway,"6"" Veggie Delite",6 veggie delite,230,-14.3
+Subway,Footlong Veggie Delite,footlong veggie delite,460,-14.3
+Subway,"6"" Veggie Patty",6 veggie patty,390,10
+Subway,Footlong Veggie Patty,footlong veggie patty,780,10
+Subway,Autumn Carved Turkey Salad,autumn carved turkey salad,300,31.7
+Subway,B.L.T. Salad,blt salad,150,12
+Subway,Big Hot Pastrami Melt Salad,big hot pastrami melt salad,400,5.8
+Subway,Big Philly Cheesesteak Salad,big philly cheesesteak salad,330,34.5
+Subway,Black Forest Ham Salad,black forest ham salad,110,39.1
+Subway,Buffalo Chicken Salad (with Ranch dressing),buffalo chicken salad with ranch dressing,360,2.8
+Subway,Carved Turkey & Bacon w/ Cheese Salad,carved turkey  bacon w cheese salad,280,45.7
+Subway,Carved Turkey Salad,carved turkey salad,150,65.3
+Subway,Chicken & Bacon Ranch Melt Salad (includes Ranch dressing),chicken  bacon ranch melt salad includes ranch dressing,510,5.5
+Subway,Cold Cut Combo Salad,cold cut combo salad,180,5
+Subway,Double Chicken Salad,double chicken salad,220,86.8
+Subway,Italian B.M.T.® Salad,italian bmt salad,230,4.8
+Subway,Italian Hero Salad,italian hero salad,230,3
+Subway,Meatball Marinara Salad,meatball marinara salad,310,-1
+Subway,Oven Roasted Chicken Salad,oven roasted chicken salad,140,66.4
+Subway,Roast Beef Salad,roast beef salad,140,57.1
+Subway,Spicy Italian Salad,spicy italian salad,310,-1.6
+Subway,Steak & Cheese Salad,steak  cheese salad,210,37.1
+Subway,Subway Club Salad,subway club salad,140,51.4
+Subway,Subway Melt® Salad,subway melt salad,200,25
+Subway,Sweet Onion Chicken Teriyaki Salad,sweet onion chicken teriyaki salad,200,38.5
+Subway,Tuna Salad,tuna salad,310,-3.2
+Subway,Turkey Breast & Ham Salad,turkey breast  ham salad,110,39.1
+Subway,Turkey Breast Salad,turkey breast salad,110,47.3
+Subway,Veggie Delite Salad,veggie delite salad,50,-6
+Subway,Chipotle Southwest Steak & Cheese Wrap,chipotle southwest steak  cheese wrap,760,4.6
+Subway,Rotisserie-Style Chicken Caesar Wrap,rotisseriestyle chicken caesar wrap,730,19.2
+Subway,"Turkey, Bacon & Guacamole Wrap",turkey bacon  guacamole wrap,810,4
+Subway,Cheese & Veggies Pizza,cheese  veggies pizza,740,-5
+Subway,Cheese Pizza,cheese pizza,680,-6.8
+Subway,Pepperoni Pizza,pepperoni pizza,790,-5.8
+Subway,Sausage Pizza,sausage pizza,820,-5.6
+Taco Bell,1/2 lb.* Cheesy Potato Burrito,12 lb cheesy potato burrito,540,-13
+Taco Bell,1/2 lb.* Combo Burrito,12 lb combo burrito,460,-3
+Taco Bell,7-Layer Burrito,7layer burrito,510,-14.3
+Taco Bell,Bean Burrito,bean burrito,370,-13.2
+Taco Bell,Beefy 5-Layer Burrito,beefy 5layer burrito,550,-11.6
+Taco Bell,Beefy Fritos® Burrito,beefy fritos burrito,440,-15
+Taco Bell,Black Bean Burrito,black bean burrito,410,-13.2
+Taco Bell,Burrito Supreme® – Beef,burrito supreme  beef,420,-9.5
+Taco Bell,Burrito Supreme® - Chicken,burrito supreme  chicken,390,-1.5
+Taco Bell,Burrito Supreme® - Steak,burrito supreme  steak,390,-5.9
+Taco Bell,Cantina Power Burrito - Chicken,cantina power burrito  chicken,760,-5.7
+Taco Bell,Cantina Power Burrito - Steak,cantina power burrito  steak,780,-5.6
+Taco Bell,Cantina Power Burrito - Veggie,cantina power burrito  veggie,740,-18.6
+Taco Bell,Cheesy Bean and Rice Burrito,cheesy bean and rice burrito,420,-18.3
+Taco Bell,Chili Cheese Burrito,chili cheese burrito,380,-6.6
+Taco Bell,Chicken Crunchy Cheesy Core Burrito,chicken crunchy cheesy core burrito,610,-7.5
+Taco Bell,Steak Crunchy Cheesy Core Burrito,steak crunchy cheesy core burrito,610,-8.2
+Taco Bell,Beef Crunchy Cheesy Core Burrito,beef crunchy cheesy core burrito,630,-11.4
+Taco Bell,Loaded Taco Burrito,loaded taco burrito,550,-10.7
+Taco Bell,Chicken Quesarito,chicken quesarito,620,-9.4
+Taco Bell,Steak Quesarito,steak quesarito,630,-9
+Taco Bell,Beef Quesarito,beef quesarito,650,-13.5
+Taco Bell,Shredded Chicken Burrito,shredded chicken burrito,400,-9.5
+Taco Bell,Smothered Burrito - Beef,smothered burrito  beef,710,-8
+Taco Bell,Smothered Burrito - Shredded Chicken,smothered burrito  shredded chicken,650,0.9
+Taco Bell,Smothered Burrito - Steak,smothered burrito  steak,670,1.3
+Taco Bell,Chicken Spicy Cheesy Core Burrito,chicken spicy cheesy core burrito,540,-4.4
+Taco Bell,Steak Spicy Cheesy Core Burrito,steak spicy cheesy core burrito,550,-4.9
+Taco Bell,Beef Spicy Cheesy Core Burrito,beef spicy cheesy core burrito,570,-8.6
+Taco Bell,Triple Melt Burrito,triple melt burrito,410,-9.3
+Taco Bell,XXL Grilled Stuft Burrito - Beef,xxl grilled stuft burrito  beef,880,-11.6
+Taco Bell,XXL Grilled Stuft Burrito - Chicken,xxl grilled stuft burrito  chicken,830,-4
+Taco Bell,XXL Grilled Stuft Burrito - Steak,xxl grilled stuft burrito  steak,820,-7.8
+Taco Bell,Chicken Soft Taco,chicken soft taco,170,14.1
+Taco Bell,Cool Ranch® Doritos® Double Decker® Taco,cool ranch doritos double decker taco,320,-8.1
+Taco Bell,Cool Ranch® Doritos® Locos Taco,cool ranch doritos locos taco,160,-8.8
+Taco Bell,Cool Ranch® Doritos® Locos Taco Supreme,cool ranch doritos locos taco supreme,200,-6
+Taco Bell,Crunchy Taco,crunchy taco,170,-2.4
+Taco Bell,Crunchy Taco Supreme®,crunchy taco supreme,200,-6
+Taco Bell,Double Decker® Taco,double decker taco,320,-9.4
+Taco Bell,DOUBLE DECKER® Taco Supreme®,double decker taco supreme,350,-10.9
+Taco Bell,Spicy Sweet Double Stacked Taco,spicy sweet double stacked taco,340,-11.2
+Taco Bell,Cool Ranch Habanero Double Stacked Taco,cool ranch habanero double stacked taco,350,-10.9
+Taco Bell,Nacho Crunch Double Stacked Taco,nacho crunch double stacked taco,380,-12.4
+Taco Bell,Fiery Doritos® Double Decker® Taco,fiery doritos double decker taco,320,-4.1
+Taco Bell,Fiery Doritos® Locos Taco,fiery doritos locos taco,170,-2.4
+Taco Bell,Fiery Doritos® Locos Taco Supreme,fiery doritos locos taco supreme,200,-6
+Taco Bell,Grilled Steak Soft Taco,grilled steak soft taco,250,-3.2
+Taco Bell,Nacho Cheese Doritos® Double Decker® Taco,nacho cheese doritos double decker taco,320,-4.1
+Taco Bell,Nacho Cheese Doritos® Locos Tacos,nacho cheese doritos locos tacos,170,0.6
+Taco Bell,Nacho Cheese Doritos® Locos Tacos Supreme,nacho cheese doritos locos tacos supreme,200,-1.5
+Taco Bell,Soft Taco Supreme® – Beef,soft taco supreme  beef,230,-3.9
+Taco Bell,Soft Taco-Beef,soft tacobeef,200,1.5
+Taco Bell,Spicy Potato Soft Taco,spicy potato soft taco,250,-22
+Taco Bell,Chalupa Supreme® - Chicken,chalupa supreme  chicken,340,-2.9
+Taco Bell,Chalupa Supreme® - Steak,chalupa supreme  steak,340,-5.3
+Taco Bell,Chalupa Supreme®–Beef,chalupa supremebeef,370,-10.5
+Taco Bell,Double Chalupa,double chalupa,600,-11.8
+Taco Bell,Wild Naked Chicken Chalupa,wild naked chicken chalupa,420,-3.8
+Taco Bell,Mild Naked Chicken Chalupa,mild naked chicken chalupa,440,-3.2
+Taco Bell,Spicy Double Chalupa,spicy double chalupa,600,-13.2
+Taco Bell,Fresco Bean Burrito,fresco bean burrito,350,-15.7
+Taco Bell,Fresco Burrito Supreme® – Chicken,fresco burrito supreme  chicken,340,-0
+Taco Bell,Fresco Burrito Supreme® – Steak,fresco burrito supreme  steak,340,-5
+Taco Bell,Fresco Chicken Soft Taco,fresco chicken soft taco,150,17.3
+Taco Bell,Fresco Crunchy Taco,fresco crunchy taco,140,-11.4
+Taco Bell,Fresco Grilled Steak Soft Taco,fresco grilled steak soft taco,150,9.3
+Taco Bell,Fresco Soft Taco,fresco soft taco,170,-5.3
+Taco Bell,Cheesy Gordita Crunch,cheesy gordita crunch,490,-8.8
+Taco Bell,Doritos® Cheesy Gordita Crunch - Cool Ranch,doritos cheesy gordita crunch  cool ranch,490,-7.8
+Taco Bell,Doritos® Cheesy Gordita Crunch - Fiery,doritos cheesy gordita crunch  fiery,490,-7.8
+Taco Bell,Doritos® Cheesy Gordita Crunch - Nacho Cheese,doritos cheesy gordita crunch  nacho cheese,490,-7.8
+Taco Bell,Double Cheesy Gordita Crunch,double cheesy gordita crunch,570,-3.9
+Taco Bell,Gordita Supreme® – Beef,gordita supreme  beef,300,-6
+Taco Bell,Gordita Supreme® - Chicken,gordita supreme  chicken,270,7.4
+Taco Bell,Gordita Supreme® - Steak,gordita supreme  steak,270,1.1
+Taco Bell,Nacho Fries Bellgrande,nacho fries bellgrande,710,-25.8
+Taco Bell,Nachos BellGrande®,nachos bellgrande,760,-19.9
+Taco Bell,Nachos Supreme,nachos supreme,430,-17.9
+Taco Bell,Triple Layer Nachos,triple layer nachos,320,-24.7
+Taco Bell,Triple Melt Nachos,triple melt nachos,260,-9.2
+Taco Bell,Beefy Cheddar Crunchwrap Slider,beefy cheddar crunchwrap slider,410,-12.9
+Taco Bell,Beefy Mini Quesadilla,beefy mini quesadilla,210,-6.7
+Taco Bell,Beefy Nacho Griller,beefy nacho griller,420,-16
+Taco Bell,BLT Crunchwrap Slider,blt crunchwrap slider,430,-17
+Taco Bell,Cantina Power Bowl - Chicken,cantina power bowl  chicken,560,-2.5
+Taco Bell,Cantina Power Bowl - Steak,cantina power bowl  steak,580,-2.6
+Taco Bell,Cantina Power Bowl - Veggie,cantina power bowl  veggie,540,-20.2
+Taco Bell,Cheese Quesadilla,cheese quesadilla,480,-8.1
+Taco Bell,Cheese Roll-Up,cheese rollup,190,-1.6
+Taco Bell,Chicken Quesadilla,chicken quesadilla,520,0.8
+Taco Bell,Chickstar,chickstar,620,-16.9
+Taco Bell,Chili Cheese Burrito,chili cheese burrito,380,-6.6
+Taco Bell,Chipotle Crispy Chicken Griller,chipotle crispy chicken griller,290,-13.8
+Taco Bell,Crispy Chicken Quesadilla,crispy chicken quesadilla,650,-6.6
+Taco Bell,Crunchwrap Supreme®,crunchwrap supreme,540,-15.7
+Taco Bell,Double Tostada,double tostada,270,-6.3
+Taco Bell,Express Taco Salad w/ Chips,express taco salad w chips,580,-9.8
+Taco Bell,Loaded Potato Griller,loaded potato griller,470,-17.9
+Taco Bell,Mexican Pizza,mexican pizza,540,-11.7
+Taco Bell,MexiMelt®,meximelt,270,3
+Taco Bell,Steak Quesalupa,steak quesalupa,440,0.2
+Taco Bell,Chicken Quesalupa,chicken quesalupa,440,-0.7
+Taco Bell,Beef Quesalupa,beef quesalupa,460,-7.4
+Taco Bell,Shredded Chicken Mini Quesadilla,shredded chicken mini quesadilla,180,13.3
+Taco Bell,Spicy Chicken Crunchwrap Slider,spicy chicken crunchwrap slider,400,-12
+Taco Bell,Spicy Tostada,spicy tostada,200,-15
+Taco Bell,Stacker,stacker,390,-3.1
+Taco Bell,Steak Quesadilla,steak quesadilla,520,-0.8
+Taco Bell,Original Triple Double Crunchwrap,original triple double crunchwrap,700,-14
+Taco Bell,Spicy Triple Double Crunchwrap,spicy triple double crunchwrap,780,-16.7
+Taco Bell,Express Taco Salad w/ Chips,express taco salad w chips,580,-9.8
+Taco Bell,Fiesta Taco Salad-Beef,fiesta taco saladbeef,780,-13.1
+Taco Bell,Fiesta Taco Salad-Chicken,fiesta taco saladchicken,720,-4.9
+Taco Bell,Fiesta Taco Salad-Steak,fiesta taco saladsteak,720,-8.3

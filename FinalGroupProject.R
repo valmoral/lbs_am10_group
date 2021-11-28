@@ -33,13 +33,13 @@ population <- read_csv('data/us_pop.csv') %>%
   select(-state) %>%
   rename(state=abbreviation)
 
-# Q2
+# Q2 - No CSV output
 calories %>%
   ggplot() +
   geom_density(aes(x=calories)) +
   facet_wrap(~restaurant)
 
-# Q4
+# Q4 - Not useful
 calories_per_restaurant <- calories %>%
   group_by(restaurant) %>%
   summarise(median_calories=median(calories))
@@ -60,7 +60,7 @@ get_urbn_map('states', sf=T) %>%
   ggplot(aes(fill=total_calories)) +
   geom_sf(colour='#ffffff')
 
-# Q6
+# Q6 - CSV output
 balance_scores <- calories %>%
   mutate(
     score_carb=4*total_carb/calories-0.5,
@@ -68,7 +68,13 @@ balance_scores <- calories %>%
     score_prot=4*total_prot/calories-0.2,
     balance_score=score_prot-(score_carb+score_fat),
     balance_score=round(balance_score*100, 1)) %>%
-  select(restaurant, item, balance_score)
+  mutate(item_clean=str_replace_all(tolower(item), '[^\\s\\w]', '')) %>%
+  mutate(restaurant=case_when(
+    restaurant=='mcdonalds'~'McDonald\'s',
+    restaurant=='burgerking'~'Burger King',
+    restaurant=='tacobell'~'Taco Bell',
+    restaurant=='subway'~'Subway')) %>%
+  select(restaurant, item, item_clean, calories, balance_score)
 
 balance_scores %>%
   ggplot(aes(x=restaurant, y=balance_score)) +
@@ -80,14 +86,20 @@ balance_scores %>%
 balance_scores %>%
   slice_min(order_by=balance_score, n=5)
 
-# Q7
-words <- calories %>%
-  select(item) %>%
-  mutate(item=str_replace_all(tolower(item), '[^\\s\\w]', '')) %>%
-  pull()
+balance_scores %>%
+  write_csv('data/balance_scores.csv')
 
-as.data.frame(table(unlist(strsplit(words, ' ')))) %>%
-  rename(item=Var1, n=Freq) %>%
-  filter(str_length(item)>1, n>1) %>%
-  ggplot(aes(label=item, size=n)) +
-  geom_text_wordcloud()
+# Q7 - No CSV output
+for(r in c('mcdonalds', 'burgerking', 'tacobell', 'subway')) {
+  words <- calories %>%
+    filter(restaurant==r) %>%
+    select(item) %>%
+    mutate(item=str_replace_all(tolower(item), '[^\\s\\w]', '')) %>%
+    pull()
+  
+  as.data.frame(table(unlist(strsplit(words, ' ')))) %>%
+    rename(item=Var1, n=Freq) %>%
+    filter(str_length(item)>1, n>1) %>%
+    ggplot(aes(label=item, size=n)) +
+    geom_text_wordcloud()
+}
