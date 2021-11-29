@@ -7,9 +7,17 @@ output: html_document
 
 ## Introduction 
 
+
 ## Statement of Purpose 
+To create intuitive visualizations that will allow consumers to make quick and informative choices about their meals when going to one of the four fast food restaurants we focused on for this project. We try to include information that will allow diverse consumers (ex: vegetarian/pescetarian, health-conscious) to come to their own conclusion about which meal from which restaurant they should get for their next meal. 
 
 ## Background and Preparation
+We utilized 4 separate data sets to create our visualizations: 
+
+- Fast food menu items 
+
+data source 
+what preparation we did 
 
 ## Methodology 
 
@@ -56,10 +64,38 @@ population <- read_csv('data/us_pop.csv') %>%
   rename(state=abbreviation)
 ```
 
-### Plot 1: US Map of 
+### 1: Calorie distribution 
+*Question answered:* What is the distribution of calories for each restaurant? 
 
-### Plot 2: 
-### Plot 3: Vegetarian and Pescetarian friendly restaurants
+```{r}
+
+```
+
+### 2: Balance score boxplot 
+*Question answered:* What is the distribution of balance scores? 
+
+```{r}
+
+```
+
+### 3: Healthiest menu items 
+*Question answered:* Which menu items from which restaurants are the healthiest? 
+
+```{r}
+
+```
+
+### 4: Wordcloud 
+*Question answered:* 
+```{r}
+
+```
+
+### 5: Vegetarian and Pescetarian friendly restaurants
+*Question answered:* Which of the four fast food restuarants is most vegetarian and or pescetarian friendly? 
+
+In this section, we explored the calories data set to find which restaurant is most vegetarian and or pescetarian friendly 
+
 ```{r vegetarian and pescetarian plots}
 #Vegetarian 
 calories_veg <- calories %>% 
@@ -125,12 +161,6 @@ fishie_plot
 ```
 
 ## Discussion and Critique
-
-
-
-```{r}
-
-```
 
 ## Including Plots
 
