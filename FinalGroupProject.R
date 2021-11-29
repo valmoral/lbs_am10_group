@@ -103,3 +103,45 @@ for(r in c('mcdonalds', 'burgerking', 'tacobell', 'subway')) {
     ggplot(aes(label=item, size=n)) +
     geom_text_wordcloud()
 }
+
+#Vegetarian 
+calories_veg <- calories %>% 
+  mutate(item=str_replace_all(tolower(item), '[^\\s\\w]',''),
+        wo = ifelse(grepl('wo chicken', item), 1, 0),
+         veggie = ifelse(grepl('veggie', item), 1, 0),
+        veggies = ifelse(grepl('veggies', item), 1, 0),
+        cheesepizza = ifelse(grepl('cheese pizza', item),1,0),
+        cheesequesadilla = ifelse(grepl('cheese quesadilla', item),1,0),
+        cheeserollup = ifelse(grepl('cheese rollup', item),1,0),
+        bean_burrito = ifelse(grepl('bean burrito', item),1,0),
+        tostada = ifelse(grepl('spicy tostada', item),1,0),
+        gardensalad = ifelse(grepl('side garden salad', item),1,0),
+         total_veg = wo + veggie + veggies + cheesepizza + cheesequesadilla + cheeserollup + bean_burrito + tostada + gardensalad) %>%
+  group_by(restaurant) %>% 
+  summarize(count = n(),
+            sum_veg = sum(total_veg), 
+            perc = sum_veg/count * 100) 
+calories_veg
+
+#Pescetarian 
+calories_pesc <- calories %>% 
+  mutate(item=str_replace_all(tolower(item), '[^\\s\\w]',''),
+         wo = ifelse(grepl('wo chicken', item), 1, 0),
+         veggie = ifelse(grepl('veggie', item), 1, 0),
+         veggies = ifelse(grepl('veggies', item), 1, 0),
+         cheesepizza = ifelse(grepl('cheese pizza', item),1,0),
+         cheesequesadilla = ifelse(grepl('cheese quesadilla', item),1,0),
+         cheeserollup = ifelse(grepl('cheese rollup', item),1,0),
+         bean_burrito = ifelse(grepl('bean burrito', item),1,0),
+         tostada = ifelse(grepl('spicy tostada', item),1,0),
+         gardensalad = ifelse(grepl('side garden salad', item),1,0),
+         seafood = ifelse(grepl('seafood', item),1,0),
+         tuna = ifelse(grepl('tuna', item),1,0),
+         fish = ifelse(grepl('fish', item),1,0),
+         lobster = ifelse(grepl('lobster', item),1,0),
+         total_pesc = wo + veggie + veggies + cheesepizza + cheesequesadilla + cheeserollup + bean_burrito + tostada + gardensalad + seafood + tuna + fish + lobster) %>%
+  group_by(restaurant) %>% 
+  summarize(count = n(),
+            sum_pesc = sum(total_pesc), 
+            perc = sum_pesc/count * 100)
+calories_pesc
